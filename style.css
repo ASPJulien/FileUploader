@@ -1,0 +1,44 @@
+.center {
+    /* Center the div*/ 
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    /* things that should look cool*/ 
+    background-color: white;
+    padding: 3%;
+    border-radius: 5px;
+}
+
+body {
+    background-color: #3648a5;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.title {
+    margin-top: 0;
+    margin-bottom: 15%;
+    text-align: center;
+}
+
+h1 {
+    font-size: xl-large;
+}
+
+h2 {
+    font-size: large;
+}
+
+.secret {
+    width: 100%;
+}
+
+.file {
+    width: 100%;
+}
+
+.send-button {
+    width: 100%;
+    margin-top: 10%;
+    padding: 3%;
+}
