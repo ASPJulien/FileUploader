@@ -8,9 +8,11 @@
 <body>
     <div class="center">
         <h1 class="title">Upload files</h1>
-        <form name="form" action="upload.php" method="post" id="uploadform">
+        <form name="form" action="/upload.php" method="post" id="uploadform" enctype="multipart/form-data">
+            <h2>Enter Username:</h2>
+            <input type="text" class="login bar" name="login" required>
             <h2>Enter password:</h2>
-            <input type="password" class="secret" name="secret" required>
+            <input type="password" class="secret bar" name="secret" required>
             <h2>Choose files:</h2>
             <input type="file" class="file" name="file">
             <input type="submit" value="Send" class="send-button">
